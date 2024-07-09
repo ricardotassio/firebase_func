@@ -1,0 +1,7 @@
+POST http://127.0.0.1:5001/fir-back-a92e9/us-central1/addRecord/add HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
