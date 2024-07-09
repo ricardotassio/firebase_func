@@ -40,9 +40,9 @@ Para configurar e executar este projeto, siga os passos abaixo:
    firebase init
    ```
 
-4. **Implante as Funções:**
+4. **Deploy as Funções:**
 
-   Implante suas funções do Firebase na nuvem:
+   Faça o deploy das suas funções do Firebase na nuvem:
 
    ```bash
    firebase deploy --only functions
