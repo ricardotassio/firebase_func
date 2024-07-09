@@ -2,7 +2,7 @@ import {db} from '../init'
 const express =  require('express')
 
 export const createUserApp = express()
-
+createUserApp.use(express.json())
 createUserApp.post("/", async (req:any, res:any) => {
   const { name } = req.body
   if (!name) {
